@@ -14,7 +14,7 @@ if (in_array( $_GET['type'], $type )) {
     
     header('Content-Type: text/calendar; charset=utf-8');
     header('Content-Disposition: attachment; filename="cal.ics"');
-    echo  file_get_contents( 'thaiholidays'.date('Y').'.ics' );
+    echo  file_get_contents( $_GET['type'].date('Y').'.ics' );
 
 }elseif ( $_GET['type'] === 'tencent' ) {
     
