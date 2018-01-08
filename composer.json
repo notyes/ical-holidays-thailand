@@ -1,0 +1,10 @@
+{
+    "require": {
+        "eluceo/ical": "^0.13.0",
+        "johngrogg/ics-parser": "^2.1",
+        "ktamas77/firebase-php": "dev-master",
+        "firebase/php-jwt": "^5.0",
+        "kreait/firebase-php": "^3.7",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
