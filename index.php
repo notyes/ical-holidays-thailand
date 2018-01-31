@@ -13,7 +13,7 @@
 
     <div class="container">
       <div class="jumbotron mt-3">
-        <h1>Thai Holidays List</h1>
+        <h1>Thai Holidays List.</h1>
         <hr>
         <ul class="nav">
           <li class="nav-item">
